@@ -9,7 +9,14 @@
         "isDirectory": true,
         "children": [
           "9c8ca45b-bfaf-45ab-8ca7-2d43803f6961",
-          "93df8103-bb3c-4a5d-bda5-8811d20c6b43"
+          "93df8103-bb3c-4a5d-bda5-8811d20c6b43",
+          "92b6374a-84fc-42ce-ab93-37e8d3f0031c",
+          "569dcdb4-d9e4-41b7-8492-d65d7f73da5f",
+          "d6a357a7-c882-450f-93d0-e8fae0593342",
+          "5f1bb6bb-38de-45d1-b018-46657db3427d",
+          "f12c4dbd-4176-437c-a82c-abd604dd4bb8",
+          "fe4ca441-b336-476d-9945-6253cfe211f4",
+          "d1a5a3af-0531-48ad-a248-97f20a21309b"
         ],
         "isRemovable": false,
         "filePath": "Py1"
@@ -43,15 +50,188 @@
         "isRemovable": true,
         "filePath": "Py1/pfile.py",
         "code": ""
+      },
+      "92b6374a-84fc-42ce-ab93-37e8d3f0031c": {
+        "id": "92b6374a-84fc-42ce-ab93-37e8d3f0031c",
+        "parent": "8198ca24-1159-4f18-8469-9668e5262c14",
+        "name": "Pfunc.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Py1/Pfunc.py",
+        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
+        "config": {
+          "runtime": "python2.7",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [],
+        "customSecurityPolicy": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Resource": "*",
+              "Action": [
+                "*"
+              ]
+            }
+          ]
+        }
+      },
+      "569dcdb4-d9e4-41b7-8492-d65d7f73da5f": {
+        "id": "569dcdb4-d9e4-41b7-8492-d65d7f73da5f",
+        "parent": "8198ca24-1159-4f18-8469-9668e5262c14",
+        "name": "Jsfile.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Py1/Jsfile.js",
+        "code": ""
+      },
+      "d6a357a7-c882-450f-93d0-e8fae0593342": {
+        "id": "d6a357a7-c882-450f-93d0-e8fae0593342",
+        "parent": "8198ca24-1159-4f18-8469-9668e5262c14",
+        "name": "t.html",
+        "type": "HTML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Py1/t.html",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>t</title>\n</head>\n<body>\n\n</body>\n</html>"
+      },
+      "5f1bb6bb-38de-45d1-b018-46657db3427d": {
+        "id": "5f1bb6bb-38de-45d1-b018-46657db3427d",
+        "parent": "8198ca24-1159-4f18-8469-9668e5262c14",
+        "name": "pfile1.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Py1/pfile1.py",
+        "code": ""
+      },
+      "f12c4dbd-4176-437c-a82c-abd604dd4bb8": {
+        "id": "f12c4dbd-4176-437c-a82c-abd604dd4bb8",
+        "parent": "8198ca24-1159-4f18-8469-9668e5262c14",
+        "name": "lambda1.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Py1/lambda1.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "fe4ca441-b336-476d-9945-6253cfe211f4": {
+        "id": "fe4ca441-b336-476d-9945-6253cfe211f4",
+        "parent": "8198ca24-1159-4f18-8469-9668e5262c14",
+        "name": "c.css",
+        "type": "CSS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Py1/c.css",
+        "code": ""
+      },
+      "d1a5a3af-0531-48ad-a248-97f20a21309b": {
+        "id": "d1a5a3af-0531-48ad-a248-97f20a21309b",
+        "parent": "8198ca24-1159-4f18-8469-9668e5262c14",
+        "name": "new",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "fb6c02bf-07bb-4b5f-9f3c-b13d3d85e1cb",
+          "b314fa7a-6920-45a4-9f33-0bcab802d86b",
+          "716fe615-3041-4d4f-961f-61328849c3ed",
+          "87f99065-c3ea-424f-bd86-0e0faabd024e"
+        ],
+        "isRemovable": true,
+        "filePath": "Py1/new"
+      },
+      "fb6c02bf-07bb-4b5f-9f3c-b13d3d85e1cb": {
+        "id": "fb6c02bf-07bb-4b5f-9f3c-b13d3d85e1cb",
+        "parent": "d1a5a3af-0531-48ad-a248-97f20a21309b",
+        "name": "n.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Py1/new/n.js",
+        "code": ""
+      },
+      "b314fa7a-6920-45a4-9f33-0bcab802d86b": {
+        "id": "b314fa7a-6920-45a4-9f33-0bcab802d86b",
+        "parent": "d1a5a3af-0531-48ad-a248-97f20a21309b",
+        "name": "n-1.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Py1/new/n-1.js",
+        "code": ""
+      },
+      "716fe615-3041-4d4f-961f-61328849c3ed": {
+        "id": "716fe615-3041-4d4f-961f-61328849c3ed",
+        "parent": "d1a5a3af-0531-48ad-a248-97f20a21309b",
+        "name": "f.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Py1/new/f.js",
+        "code": "exports.handler = function(event, context, callback) {\n    //test\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs6.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "87f99065-c3ea-424f-bd86-0e0faabd024e": {
+        "id": "87f99065-c3ea-424f-bd86-0e0faabd024e",
+        "parent": "d1a5a3af-0531-48ad-a248-97f20a21309b",
+        "name": "f-1.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Py1/new/f-1.js",
+        "code": "exports.handler = function(event, context, callback) {\n    //test\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs6.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
       }
     },
     "deletedFiles": [],
     "rootNode": "8198ca24-1159-4f18-8469-9668e5262c14",
     "openFiles": [
       "9c8ca45b-bfaf-45ab-8ca7-2d43803f6961",
-      "93df8103-bb3c-4a5d-bda5-8811d20c6b43"
+      "92b6374a-84fc-42ce-ab93-37e8d3f0031c",
+      "fb6c02bf-07bb-4b5f-9f3c-b13d3d85e1cb",
+      "b314fa7a-6920-45a4-9f33-0bcab802d86b",
+      "716fe615-3041-4d4f-961f-61328849c3ed",
+      "87f99065-c3ea-424f-bd86-0e0faabd024e"
     ],
-    "currentFileId": "93df8103-bb3c-4a5d-bda5-8811d20c6b43",
+    "currentFileId": "9c8ca45b-bfaf-45ab-8ca7-2d43803f6961",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -78,7 +258,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1555481998873
+    "lastSave": 1555488194666
   },
   "VCS_STATE": {
     "provider": "GitHub",
