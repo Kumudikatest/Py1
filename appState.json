@@ -1,0 +1,90 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "8198ca24-1159-4f18-8469-9668e5262c14": {
+        "id": "8198ca24-1159-4f18-8469-9668e5262c14",
+        "parent": null,
+        "name": "Py1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "9c8ca45b-bfaf-45ab-8ca7-2d43803f6961",
+          "93df8103-bb3c-4a5d-bda5-8811d20c6b43"
+        ],
+        "isRemovable": false,
+        "filePath": "Py1"
+      },
+      "9c8ca45b-bfaf-45ab-8ca7-2d43803f6961": {
+        "id": "9c8ca45b-bfaf-45ab-8ca7-2d43803f6961",
+        "parent": "8198ca24-1159-4f18-8469-9668e5262c14",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Py1/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "93df8103-bb3c-4a5d-bda5-8811d20c6b43": {
+        "id": "93df8103-bb3c-4a5d-bda5-8811d20c6b43",
+        "parent": "8198ca24-1159-4f18-8469-9668e5262c14",
+        "name": "pfile.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Py1/pfile.py",
+        "code": ""
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "8198ca24-1159-4f18-8469-9668e5262c14",
+    "openFiles": [
+      "9c8ca45b-bfaf-45ab-8ca7-2d43803f6961",
+      "93df8103-bb3c-4a5d-bda5-8811d20c6b43"
+    ],
+    "currentFileId": "93df8103-bb3c-4a5d-bda5-8811d20c6b43",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Py1",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1555481998873
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Py1",
+      "url": "https://github.com/Kumudikatest/Py1"
+    }
+  }
+}
